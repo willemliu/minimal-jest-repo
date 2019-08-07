@@ -1,0 +1,23 @@
+{
+    "name": "basic-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Willem Liu",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@types/jest": "^24.0.17",
+        "babel-jest": "^24.8.0",
+        "jest": "^24.8.0"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.js$": "babel-jest"
+        }
+    }
+}
