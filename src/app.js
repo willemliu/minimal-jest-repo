@@ -1,4 +1,6 @@
 function testFunction() {
-    return "Hello tester!";
+    const msg = "Hello tester!";
+    console.log(msg);
+    return msg;
 }
 export default testFunction;
